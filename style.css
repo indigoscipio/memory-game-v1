@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300;500&display=swap");
+
+html {
+  font-size: 62.5%;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "DM Sans", sans-serif;
+  line-height: 1.6;
+  letter-spacing: -0.1rem;
+  color: rgba(39, 39, 70, 0.836);
+  font-size: 1.8rem;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: space-between;
+  align-items: space-between;
+  text-align: center;
+  background-color: azure;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  max-width: min-content;
+  margin: 0 auto;
+  gap: 1.6rem;
+  flex-wrap: wrap;
+}
+
+img {
+  transition: all 0.3s ease;
+  width: 16rem;
+  border-radius: 4px solid black;
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(56, 56, 63);
+}
